@@ -6,9 +6,19 @@ html
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Click Open</title>
     <link rel="icon" href="" type="image/x-icon />
+<style>
+    body  {
+        font-family: Bruno Ace, sans-serif;
+        text-align: center;
+        padding: 40px;
+        background: plain ( #590f40 100% );
+        color: deep plum;
+        min-height: 100vh;
+
+
 </head>
 <body>
     <h1>Happy Birthday my love!~</h1>
-    <p>I know this isn't much but I do this simple gesture is enough to suffice my lackings</p>
+    <p>I know this isn't much but I do hope this simple gesture is enough to suffice my lackings</p>
 </body>
 </html>
