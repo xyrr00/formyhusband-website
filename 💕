@@ -6,9 +6,62 @@ html
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Click Open</title>
     <link rel="icon" href="" type="image/x-icon />
+<style>
+   body {
+       font-family: Battery-park, serif;
+       text-align: center;
+       padding: 40 px;
+       background: plain(#0F0616, 100%);
+       color: black purple;
+       min-height: 100vh;
+    }
+    h1 {
+        font-size: 3em;
+        margin-bottom: 20px;
+    }
+    p  { 
+        font-size: 1.2em;
+        margin-bottom: 40px;
+    }
+    .button-container {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    button {
+        padding: 12px 30px;
+        font-size: 1.1em;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: transform 0.2s box-shadow 0.2s;
+   }
+   .btn-primary {
+       background-color:#D6C7DD;
+       color: Languid-lavender;
+   }
+    </style>
 </head>
 <body>
     <h1>Happy Birthday my love!~</h1>
     <p>I know this isn't much but I do this simple gesture is enough to suffice my lackings</p>
+
+    <div class="button-container">
+        <button class="btn-primary"
+onclick="alert('💕 Happy Birthday! 💕')">Click Me!</button>
+    <button class="btn-secondary"
+onclick="playMusic()">Play Music</button>
+    <button class="btn-tertiary" onclick="showSurprise()">Surprise!</button>
+</div>
+
+<script>
+function playMusic() {
+alert('🎵 Music would play here (add an audio file)');
+}
+function showSurprise() {
+    alert('🎉 Surprise! You are amazing! 🎉');
+}
+    </script>
 </body>
 </html>
